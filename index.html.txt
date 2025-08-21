@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lisa Hamhamedy | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#home" class="logo">Lisa.</a>
+    <ul>
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hello, I’m <span>Lisa Hamhamedy</span></h1>
+      <p>
+        A passionate student, teacher, and future doctor.  
+        I enjoy learning new skills, sharing knowledge, and building creative projects.  
+        Welcome to my Protfilo — a place where you can explore my journey.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am 14 years old and currently studying at the American University of Afghanistan.  
+      My dream is to become a doctor, inspired by my love for helping others and curiosity about science.  
+      Alongside my studies, I teach English to village girls for free, empowering them with opportunities to learn.  
+      I also love coding, languages, and public speaking.  
+      Every day I strive to improve myself and inspire others.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Work & Achievements</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>English Teaching</h3>
+        <p>I work as a volunteer English teacher for girls in villages, giving them access to education they otherwise cannot reach.</p>
+      </div>
+      <div class="card">
+        <h3>Academic Success</h3>
+        <p>I have completed English 2 with a score of 89 and English 3 with a score of 83.17 at AUE, showing my dedication to excellence.</p>
+      </div>
+      <div class="card">
+        <h3>Public Speaking</h3>
+        <p>I successfully presented my civic engagement project on social media, receiving appreciation from my classmates and professors.</p>
+      </div>
+      <div class="card">
+        <h3>Programming Skills</h3>
+        <p>I am learning JavaScript and working on projects like arrays, random numbers, and building applications such as Combat Racing.</p>
+      </div>
+      <div class="card">
+        <h3>Languages</h3>
+        <p>I love learning languages, currently studying English, German, and practicing Persian and Pashto expressions.</p>
+      </div>
+      <div class="card">
+        <h3>Future Goals</h3>
+        <p>My ultimate goal is to become a doctor while also continuing to teach, code, and inspire others through my work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xeozbwkl" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Protfilo | Designed with 💚 by Lisa Hamhamedy</p>
+  </footer>
+
+</body>
+</html>
